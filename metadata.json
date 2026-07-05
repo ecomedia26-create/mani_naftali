@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Meni Naftali Premium Renovations",
+  "description": "Expert home renovation and finishing services specializing in bathrooms, flooring, and waterproofing with professional precision and high-quality results.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Heebo", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Accessibility Modes */
+.high-contrast-mode {
+  filter: contrast(120%) invert(100%);
+  background-color: #fff;
+}
+
+.high-contrast-mode img {
+  filter: invert(100%);
+}
+
+.highlight-links-mode a {
+  text-decoration: underline !important;
+  text-decoration-color: yellow !important;
+  text-decoration-thickness: 3px !important;
+  background-color: #000 !important;
+  color: yellow !important;
+}
